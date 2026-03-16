@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    // 정수 타입 변수와 오버플로우
+    int hp = 100;
+
+    __int16 mp = 32767;
+
+    mp = mp * 2;
+
+    cout << mp;
+}
+
